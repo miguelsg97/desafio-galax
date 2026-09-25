@@ -1,103 +1,111 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="shortcut icon" href="img/fav.ico">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
-<link rel="stylesheet" href="css/style.css">
-<title>Contato | Galax</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/fav.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Contato | Galax</title>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark galax-navbar fixed-top">
-  <div class="container-fluid px-4">
-    <a class="navbar-brand d-flex align-items-center" href="index.html">
-      <img src="img/logo.png" alt="Galax" class="galax-logo">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#galaxMenu" aria-controls="galaxMenu" aria-expanded="false" aria-label="Abrir menu">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="galaxMenu">
-      <ul class="navbar-nav ms-auto gap-lg-3">
-        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="sobrenos.html">Sobre nós</a></li>
-        <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<main class="page-main">
-  <section class="container contact-section">
-    <div class="row g-4 align-items-stretch">
-      <div class="col-lg-5">
-        <div class="card info-panel h-100 shadow-lg">
-          <div class="card-body p-4 p-md-5">
-            <h1 class="page-title text-start">Contato</h1>
-            <p>Entre em contato com a equipe Galax.</p>
-            <div class="list-group list-group-flush contact-list mt-4">
-              <a class="list-group-item" href="mailto:miguelsg479@gmail.com"><i class="fa-solid fa-envelope me-2"></i>contato@galax.com.br</a>
-              <a class="list-group-item" href="tel:+5512996421107"><i class="fa-solid fa-phone me-2"></i>(12) 99642-1107</a>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark galax-navbar fixed-top">
+      <div class="container-fluid px-4">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="img/logo.png" alt="Galax" class="galax-logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#galaxMenu" aria-controls="galaxMenu" aria-expanded="false" aria-label="Abrir menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="galaxMenu">
+          <ul class="navbar-nav ms-auto gap-lg-3">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="sobrenos.html">Sobre nós</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <section class="container contact-section">
+      <div class="row g-4 align-items-stretch">
+        
+        <div class="col-lg-5">
+          <article class="card info-panel h-100 shadow-lg">
+            <div class="card-body p-4 p-md-5">
+              <h1 class="page-title text-start">Contato</h1>
+              <p>Entre em contato com a equipe Galax.</p>
+              
+              <address class="list-group list-group-flush contact-list mt-4 mb-0 fst-normal">
+                <a class="list-group-item" href="mailto:contato@galax.com.br"><i class="fa-solid fa-envelope me-2"></i>contato@galax.com.br</a>
+                <a class="list-group-item" href="tel:+5512996421107"><i class="fa-solid fa-phone me-2"></i>(12) 99642-1107</a>
+              </address>
             </div>
-          </div>
+          </article>
         </div>
-      </div>
-      <div class="col-lg-7">
-        <div class="card info-panel h-100 shadow-lg">
-          <div class="card-body p-4 p-md-5">
-            <h2 class="h3 mb-4">Envie uma mensagem</h2>
-            <div id="formAlert" class="alert alert-success d-none" role="alert">Mensagem enviada!</div>
-            <form id="contactForm">
-              <div class="row g-3">
-                <div class="col-md-6">
-                  <label for="nome" class="form-label">Nome</label>
-                  <input type="text" class="form-control" id="nome" required>
+
+        <div class="col-lg-7">
+          <article class="card info-panel h-100 shadow-lg">
+            <div class="card-body p-4 p-md-5">
+              <h2 class="h3 mb-4">Envie uma mensagem</h2>
+              <div id="formAlert" class="alert alert-success d-none" role="alert">Mensagem enviada!</div>
+              
+              <form id="contactForm">
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nome" name="nome" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                  </div>
+                  <div class="col-12">
+                    <label for="assunto" class="form-label">Assunto</label>
+                    <select class="form-select" id="assunto" name="assunto" required>
+                      <option value="" disabled selected>Selecione um assunto</option>
+                      <option value="Sugestão de série">Sugestão de série</option>
+                      <option value="Dúvida">Dúvida</option>
+                      <option value="Outro">Outro</option>
+                    </select>
+                  </div>
+                  <div class="col-12">
+                    <label for="mensagem" class="form-label">Mensagem</label>
+                    <textarea class="form-control" id="mensagem" name="mensagem" rows="6" required></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn galax-btn">Enviar</button>
+                  </div>
                 </div>
-                <div class="col-md-6">
-                  <label for="email" class="form-label">E-mail</label>
-                  <input type="email" class="form-control" id="email" required>
-                </div>
-                <div class="col-12">
-                  <label for="assunto" class="form-label">Assunto</label>
-                  <select class="form-select" id="assunto" required>
-                    <option>Sugestão de série</option>
-                    <option>Dúvida</option>
-                    <option>Outro</option>
-                  </select>
-                </div>
-                <div class="col-12">
-                  <label for="mensagem" class="form-label">Mensagem</label>
-                  <textarea class="form-control" id="mensagem" rows="6" required></textarea>
-                </div>
-                <div class="col-12">
-                  <button type="submit" class="btn galax-btn">Enviar</button>
-                </div>
-              </div>
-            </form>
-          </div>
+              </form>
+            </div>
+          </article>
         </div>
+
       </div>
+    </section>
+  </main>
+
+  <footer class="site-footer mt-5">
+    <div class="container py-4">
+      <p class="copyright text-center mb-0">
+        <small>Galax®. Todos os direitos reservados.</small>
+      </p>
     </div>
-  </section>
-</main>
+  </footer>
 
-<footer class="site-footer mt-5">
-  <div class="container py-4">
-    <p class="copyright text-center mb-0">
-      Galax®. Todos os direitos reservados.
-    </p>
-  </div>
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-document.getElementById('contactForm').addEventListener('submit', function(event) {
-  event.preventDefault();
-  document.getElementById('formAlert').classList.remove('d-none');
-  this.reset();
-});
-</script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById('contactForm')?.addEventListener('submit', function(event) {
+      event.preventDefault();
+      document.getElementById('formAlert').classList.remove('d-none');
+      this.reset();
+    });
+  </script>
 </body>
 </html>
