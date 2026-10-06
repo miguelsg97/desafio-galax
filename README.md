@@ -1,1 +1,1 @@
-Repositório criado para upload das atividades realizadas nas aulas de Desenvolvimento Web ministradas pelo Prof. Jean Costa na FATEC São José dos Campos - Prof. Jessen Vidal - 2 sem. ADS, 2026.
+Atividade de Desenvolvimento Web proposta pelo Professor Jean Costa aos alunos do 2º semestre do curso de Análise e Desenvolvimento de Sistemas (ADS), da FATEC São José dos Campos – Prof. Jessen Vidal, 2026.
