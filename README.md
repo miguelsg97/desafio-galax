@@ -5,9 +5,9 @@ Atividades de Desenvolvimento Web proposta pelo Professor Jean Costa aos alunos 
 ## GitHub Pages (Atividades 1 e 2) - Links
 
 ### Atividade 1
-- https://miguelsg97.github.io/desafio-galax/atividade1/
+- https://miguelsg97.github.io/desafio-web-2sem/atividade1/
 
 ### Atividade 2
-- https://miguelsg97.github.io/desafio-galax/atividade2-estado-da-arte/
+- https://miguelsg97.github.io/desafio-web-2sem/atividade2-estado-da-arte/
 
 
